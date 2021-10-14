@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yσυ</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <aside class="aside">
+        <div class="aside__logo">
+          <div class="logo"></div>
+          <h4>Yσυ</h4>
+        </div>
+
+<a href="#abrirModal">Open Modal</a>
+
+<div id="abrirModal" class="modal">
+  <a href="#fechar" title="Fechar" class="fechar">x</a>
+  <h2>Janela Modal</h2>
+  <p>Esta é uma simples janela de modal.</p>
+  <p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
+</div>
+
+
+
+        <ul class="aside__menu">
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                />
+              </svg>
+              Geral</a
+            >
+          </li>
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
+                /></svg
+              >Estatisticas</a
+            >
+          </li>
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                /></svg
+              >Relatorios</a
+            >
+          </li>
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                /></svg
+              >Agenda</a
+            >
+          </li>
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                /></svg
+              >Visitantes</a
+            >
+          </li>
+          <li class="aside__item">
+            <a href="" class="aside__link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+                /></svg
+              >Segmentos</a
+            >
+          </li>
+        </ul>
+        <a href="" class="aside__link aside__link--bottom">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            /></svg
+          >Configurações</a
+        >
+      </aside>
+      <div class="main-container">
+        <nav class="nav">
+          <form>
+            <input type="text" placeholder="Search" />
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+              <a href="#abrirModal">Open Modal</a>
+
+<div id="abrirModal" class="modal">
+  <a href="#fechar" title="Fechar" class="fechar">x</a>
+  <h2>Janela Modal</h2>
+  <p>Esta é uma simples janela de modal.</p>
+  <p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
+</div>
+
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div class="nav__items">
+            <div class="nav__link nav__link--notification-number">
+              Notificações
+              <div class="nav__notifications">
+                <ul>
+                  <li>Amanda Assistiu Round 6</li>
+                  <li>José  Comentou em seu post</li>
+                  <li>Davi Curtiu seu post</li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav__link">Chat</div>
+            <div class="nav__profile">
+              <div class="nav__user-photo"></div>
+              <div class="nav__link nav__link-user-name">Nicolas</div>
+            </div>
+          </div>
+        </nav>
+        <main class="home">
+          <header class="header header--primary">
+            <img src="assets/wfh_1.svg" alt="header-image" />
+            <h1 class="header-tittle header-tittle--primary">
+              Conheça as Nossas Entregas
+            </h1>
+          </header>
+          <section class="categories">
+            <h3>Categorias</h3>
+            <div class="categories__cards">
+              <article class="categories__card">Medicamentos</article>
+              <article class="categories__card">Dia a dia</article>
+              <article class="categories__card">Mulheres</article>
+              <article class="categories__card">Homens</article>
+              <article class="categories__card">Comicos</article>
+              <article class="categories__card">Saúde</article>
+              <article class="categories__card">Moda</article>
+              <article class="categories__card">Comércio Online</article>
+              <article class="categories__card">Amor</article>
+              <article class="categories__card">Familia</article>
+              <article class="categories__card">Férias</article>
+              <article class="categories__card">Pessoas</article>
+              <article class="categories__card">Educação</article>
+              <article class="categories__card">Esporte</article>
+              <article class="categories__card">Cartas</article>
+              <article class="categories__card">TV</article>
+              <article class="categories__card">Tecnologia</article>
+            </div>
+          </section>
+          <article class="cards-section">
+            <h3 class="cards-section__tittle">Mais vendidos</h3>
+            <div class="cards">
+              <div class="card card--1">
+                <div class="card__content">
+                  <button>Compre agora</button>
+                </div>
+              </div>
+              <div class="card card--2">
+                <div class="card__content">
+                  <button>Compre agora</button>
+                </div>
+              </div>
+              <div class="card card--3">
+                <div class="card__content">
+                  <button>Compre agora</button>
+                </div>
+              </div>
+              <div class="card card--4">
+                <div class="card__content">
+                  <button>Compre agora</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <header class="header header--secondary">
+            <img src="assets/wfh_9.svg" alt="header-image" />
+            <h2 class="header-tittle header-tittle--secondary">
+              Promoção do mês
+            </h2>
+          </header>
+          <article class="cards-section">
+            <h3 class="cards-section__tittle">Explore</h3>
+            <div class="cards">
+              <div class="card card--orange card--1"></div>
+              <div class="card card--orange card--2"></div>
+              <div class="card card--orange card--3"></div>
+              <div class="card card--orange card--4"></div>
+              <div class="card card--orange card--3"></div>
+              <div class="card card--orange card--4"></div>
+              <div class="card card--orange card--3"></div>
+              <div class="card card--orange card--4"></div>
+              <div class="card card--orange card--3"></div>
+              <div class="card card--orange card--4"></div>
+              <div class="card card--orange card--1"></div>
+              <div class="card card--orange card--3"></div>
+            </div>
+          </article>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
